@@ -10,9 +10,9 @@ To Answer Business questions such as - How Effective Channels are ? , How is the
 2. Create a virtual Environment - Python==3.12.3
 3. Install dbt-snowflake==1.7.1, 
 4. Setting Up DBT 
-   - Through Terminal, Create \.dbt inside the user folder to store profiles.yml - `mkdir %userprofile%\.dbt`
+   - Create \.dbt inside the user folder to store profiles.yml - `mkdir %userprofile%\.dbt`
    - Initiate dbt - `dbt init demadbt` 
-   - Connect Snowflake(Account Already setup) - Credentials Will be shared in  mail(if required)
+   - Connect Snowflake(Account Already setup) - Credentials or Setup(queries) Will be shared in  mail(if required)
    - Check the connection - `dbt debug`
    - Open VS code or any ide actvate the virtual env and `cd demadbt` and Install dbt Packages in packeges.yml - `dbt deps`
 Now We are ready !!

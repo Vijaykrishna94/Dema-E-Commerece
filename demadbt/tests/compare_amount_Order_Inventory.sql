@@ -1,0 +1,1 @@
+{{compare_value(ref('src_order'),ref('dim_Order_Inventory_Combined'), 'amount')}}

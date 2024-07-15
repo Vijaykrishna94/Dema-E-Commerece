@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: DEMA
+    schema: RAW
+    tables:
+      - name: orders
+        identifier: raw_orders
+
+      - name: inventory
+        identifier: raw_inventory

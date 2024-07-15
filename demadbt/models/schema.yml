@@ -1,0 +1,43 @@
+version: 2
+models:
+  - name: src_order
+    description: De-Duplicated Table Consisting Orders Data.
+    columns:
+
+     - name: hardid
+       description: Surrogate Key of OrderID,ProductId,Timestamp.
+       tests:
+         - not_null
+         - unique
+     
+     - name: productid
+       tests:
+         - not_null
+         - relationships:
+                to: ref('src_inventory')
+                field: productid         
+  - name: src_inventory
+    description: De-Duplicated Table Consisting Inventory Data.
+    columns: 
+     - name: productid
+       description: Primary Key.
+       tests:
+         - not_null
+
+  - name: dim_Order_Inventory_Combined
+    description: Inventory Stitched to Orders.
+    columns: 
+     - name: amount
+       tests:
+         - positive_value
+         
+  - name: mart_Campaign_Ranking
+    description: Campaign Monetary Performance.
+
+  - name: mart_ChannelGroup_Effectiveness
+    description: Quanitities Bought through Varies Channel Groups.
+
+  - name: mart_TimeSeries
+    description: Sales(quanitity) with Vs Date.
+
+      

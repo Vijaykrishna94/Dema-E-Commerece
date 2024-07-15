@@ -18,7 +18,7 @@ To Answer Business questions such as - How Effective Channels are ? , How is the
 Now We are ready !!
 
 ### Testing
-1. `dbt run` will initiate the tests Or you can use `dbt test` to test the sql explicitly.
+1. `dbt run` will initiate the piepiline and tests Or you can use `dbt test` to test the sql's explicitly.
 2. Total of six tests  4 inbuilt  2 custom tests have been used to validate the data. You can find the detailed list under `schema.yml`
 3. You can Use `dbt docs serve` Command to look at the database-documentation and Lineage.
 

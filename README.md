@@ -8,7 +8,7 @@ To Answer Business questions such as - How Effective Channels are ? , How is the
 ### Setting Up
 1. Create Dema Folder 
 2. Create a virtual Environment - Python==3.12.3
-3. Install and dbt-snowflake==1.7.1, 
+3. Install dbt-snowflake==1.7.1, 
 4. Setting Up DBT 
    - Through Terminal, Create \.dbt inside the user folder to store profiles.yml - `mkdir %userprofile%\.dbt`
    - Initiate dbt - `dbt init demadbt` 

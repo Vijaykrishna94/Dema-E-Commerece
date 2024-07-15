@@ -27,4 +27,4 @@ Now We are ready !!
 
 
 #### POST SCRIPT
-If I had some more time I would have orchestrated this pipeline with Dagster.
+If I had some more time I would have orchestrated this pipeline with Dagster and dockerised.

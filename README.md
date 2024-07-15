@@ -1,5 +1,5 @@
 ## Description
-This Project Consists of Setting up of DBT and Database Architecture Using Snowflake Storage and Compute to run the queries locally.
+This Project Consists of Setting up  DBT and Database Architecture Using Snowflake Storage and Compute to run the queries locally.
 
 ### Objective
 To Answer Business questions such as - How Effective Channels are ? , How is the campaign Monetary Performance ? How are the sales overall.
@@ -27,4 +27,4 @@ Now We are ready !!
 
 
 #### POST SCRIPT
-If I had some more time I would have orchestrated this pipeline with Dagster and dockerised.
+If I had some more time I would have Created a dashboard using Preset, orchestrated this pipeline with Dagster and dockerised.

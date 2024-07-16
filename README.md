@@ -22,7 +22,8 @@ Now We are ready !!
 2. Total of six tests  4 inbuilt  2 custom tests have been used to validate the data. You can find the detailed list under `schema.yml`
 3. You can Use `dbt docs serve` Command to look at the database-documentation and Lineage.
 
-![image](https://github.com/user-attachments/assets/ec719931-ed2c-4360-9d93-0b73b4744cbc)
+![image](https://github.com/user-attachments/assets/7f6dfbe2-67df-43dd-a043-4f7df25cf05a)
+
 
 
 
